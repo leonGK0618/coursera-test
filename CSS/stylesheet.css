@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Kanit:wght@800&display=swap');
+
+@font-face {
+font-family: "CrimsonText-BoldItalic";
+src: url("CrimsonText-BoldItalic.ttf");
+}
+
+@font-face {
+font-family: "Kanit-Black";
+src: url("Kanit-Black.ttf");
+}
+
+@media (min-width: 992px){
+	.col-lg-4 {
+		float: left;
+		width: 33%;
+	}
+	.box {
+		height: 280px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+	.col-md-12{
+		float: left;
+		width: 100%;
+	}
+	.col-md-12 > .box {
+		width: auto;
+		margin-left: 10px;
+		margin-right:10px;
+	}
+	.col-md-6 > .box {
+		height: 230px;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+	html, body {min-width: 300px;}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+	font-size: 175%;
+	font-weight: bolder;
+	font-family: 'Kanit', sans-serif;
+	margin: 50px 0px 50px 0px;
+}
+
+.box {
+	width: 95%;
+	border: 1px solid black;
+	background-color: #A9A9A9;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header1 , .header2, .header3 {
+	position: relative;
+	width: 30%;
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 125%;
+	font-weight: bold;
+	font-family: 'Crimson Text', serif;
+}
+
+.header1 {
+	background-color: #6495ED;
+}
+
+.header2 {
+	background-color: #DC143C;
+}
+
+.header3 {
+	background-color: #00008B;
+	color:#FFFFFF;
+}
+
+.text {
+	clear:right;
+	padding: 10px 10px 10px 10px; 
+}
+
+
+
